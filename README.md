@@ -5,14 +5,21 @@ Inspired by https://github.com/jasonhensler/Atlassian-Scripts/
 
 ### There are 2 ways of using this script:
 
-1. <pre>git clone https://github.com/serge-name/jira-reindex
+1
+```shell
+git clone https://github.com/serge-name/jira-reindex
 cd jira-reindex
 bundle install --path=.
-bundle exec ./jira-reindex.rb [options]</pre>
-2. <pre>apt-get install ruby ruby-iniparse ruby-mechanize
+bundle exec ./jira-reindex.rb [options]
+```
+
+2
+```shell
+apt-get install ruby ruby-iniparse ruby-mechanize
 wget -O /usr/local/bin/jira-reindex https://github.com/serge-name/jira-reindex/raw/master/jira-reindex.rb
 chmod 755 /usr/local/bin/jira-reindex
-jira-reindex -p/etc/jira.reindex.ini</pre>
+jira-reindex -p/etc/jira.reindex.ini
+```
 
 ### Checked versions:
 
