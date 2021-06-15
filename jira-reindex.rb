@@ -6,7 +6,8 @@
 # 1)
 #     git clone https://github.com/serge-name/jira-reindex
 #     cd jira-reindex
-#     bundle install --path=.
+#     bundle config set --local path ./vendor
+#     bundle install
 #     bundle exec ./jira-reindex.rb [options]
 #
 # 2)
